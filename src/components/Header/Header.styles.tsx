@@ -2,7 +2,30 @@
 import { styled } from "@mui/material/styles";
 
 // MUI Elements
-import { AppBar, FormControlLabel, Switch } from "@mui/material";
+import { AppBar, FormControlLabel, Switch, Box, Button, Container } from "@mui/material";
+
+export const HeaderContainer = styled(Container)(({ theme }) => ({
+  display: "flex",
+  justifyContent: 'center',
+  padding: '10px'
+}));
+
+export const ModalButton = styled(Button)(({ theme }) => ({
+  display: "flex",
+  flexWrap: "wrap",
+}));
+
+export const ModalBox = styled(Box)(({ theme }) => ({
+  position: 'absolute' as 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: '600px',
+  backgroundColor: theme.palette.primary.black,
+  border: '2px solid #000',
+  boxShadow: '24',
+  padding: '40px',
+}));
 
 export const SportalAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: theme.palette.primary.black,
@@ -10,7 +33,8 @@ export const SportalAppBar = styled(AppBar)(({ theme }) => ({
 
 export const SportalFormControlLabel = styled(FormControlLabel)({
   margin: "10px",
-  float: "right",
+  display: "flex",
+  flexWrap: "wrap",
 });
 
 //Switcher

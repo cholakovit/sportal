@@ -14,22 +14,37 @@ export const sportalApi = createApi({
   endpoints: (builder) => ({
     getProviders: builder.query({
       query: () => '/providers',
-      providesTags: ["Providers"],
       transformResponse: (response: any) => {
-        let i = 0
+        let i = 1
         const providers = response.map((provider: any) => {
           provider.id = i
           i++
           return provider
         })
-        console.log('transformResponse', providers)
-        return providerAdapter.setAll(initialState, response);
-      }
+        providers.sort((a: any, b: any) => b.id - a.id);
+        return providerAdapter.setAll(initialState, providers);
+      },
+      providesTags: (result: any, error, arg) => [
+        { type: 'Providers', id: "LIST" },
+        ...result.ids.map((id: number) => ({ type: 'Providers', id }))
+      ]
     }),
+    addNewProvider: builder.mutation({
+      query: initialProvider => ({
+          url: '/providers',
+          method: 'POST',
+          body: {
+              ...initialProvider,
+          }
+      }),
+      invalidatesTags: [
+          { type: 'Providers', id: "LIST" }
+      ]
+  }),
   }),
 });
 
-export const { useGetProvidersQuery } = sportalApi;
+export const { useGetProvidersQuery, useAddNewProviderMutation } = sportalApi;
 
 // returns the query result object
 export const selectProvidersResult = sportalApi.endpoints.getProviders.select("");

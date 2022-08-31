@@ -4,7 +4,7 @@ import { Provider, ProviderContent, ProviderPropHolder1, ProviderPropHolder2 } f
 
 const ProviderView: FC<any> = (provider, key) => {
 
-    console.log('provider', provider)
+    //console.log('provider', provider)
 
   return (
     <Provider role='provider' key={key}>

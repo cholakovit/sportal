@@ -1,711 +1,711 @@
 {
-    "providers": [
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 42789
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 624
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 396
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 1516
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 5351
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 4619
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1493
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 3938
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 16141
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 428
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 19593
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "match",
-            "views": 4
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 50669
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 108393
-        },
-        {
-            "provider": 5,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 13167
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 255622
-        },
-        {
-            "provider": 5,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 1526
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 6840
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 13207
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 1783
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 237
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 3701
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 4663
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 1483
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 551
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 161029
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 568
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 20873
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 1288
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1559
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 83718
-        },
-        {
-            "provider": 33,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 7048
-        },
-        {
-            "provider": 33,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 42868
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 18189
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 3604
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 2884
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 98533
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "match",
-            "views": 2
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1988
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 16570
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 52885
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 1504
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 287661
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 756
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 11399
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 40797
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 6635
-        },
-        {
-            "provider": 43,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 4633
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 4713
-        },
-        {
-            "provider": 43,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 1047
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 244
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 1619
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 59
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "match",
-            "views": 1
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 246
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 317
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1771
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 8250
-        },
-        {
-            "provider": 154,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 4552
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 18
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 77
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 218
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 4939
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 37776
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "match",
-            "views": 4
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 931
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 41912
-        },
-        {
-            "provider": 154,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 30467
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 214583
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 49995
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 869
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 280507
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 39756
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 14657
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 1276
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 34983
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 6215
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 5169
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 1506
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 4068
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "match",
-            "views": 2
-        },
-        {
-            "provider": 509,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 4684
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 3730
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 14897
-        },
-        {
-            "provider": 509,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1957
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "category",
-            "views": 830
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "news_view",
-            "views": 147944
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "livescore",
-            "views": 29451
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "homepage",
-            "views": 14636
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "news_view",
-            "views": 83363
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "livescore",
-            "views": 8979
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 10603
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "tournament",
-            "views": 283
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "country",
-            "views": 2559
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "country",
-            "views": 3497
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "category",
-            "views": 2762
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "team",
-            "views": 467
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "tv-schedule",
-            "views": 22005
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "homepage",
-            "views": 1292
-        },
-        {
-            "provider": 511,
-            "day": 229,
-            "year": 2022,
-            "page": "team",
-            "views": 918
-        },
-        {
-            "provider": 511,
-            "day": 230,
-            "year": 2022,
-            "page": "tournament",
-            "views": 320
-        }
-    ]
+  "providers": [
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 42789
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 624
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 396
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 1516
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 5351
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 4619
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1493
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 3938
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 16141
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 428
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 19593
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "match",
+      "views": 4
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 50669
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 108393
+    },
+    {
+      "provider": 5,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 13167
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 255622
+    },
+    {
+      "provider": 5,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 1526
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 6840
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 13207
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 1783
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 237
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 3701
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 4663
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 1483
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 551
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 161029
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 568
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 20873
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 1288
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1559
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 83718
+    },
+    {
+      "provider": 33,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 7048
+    },
+    {
+      "provider": 33,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 42868
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 18189
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 3604
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 2884
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 98533
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "match",
+      "views": 2
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1988
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 16570
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 52885
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 1504
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 287661
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 756
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 11399
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 40797
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 6635
+    },
+    {
+      "provider": 43,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 4633
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 4713
+    },
+    {
+      "provider": 43,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 1047
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 244
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 1619
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 59
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "match",
+      "views": 1
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 246
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 317
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1771
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 8250
+    },
+    {
+      "provider": 154,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 4552
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 18
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 77
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 218
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 4939
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 37776
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "match",
+      "views": 4
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 931
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 41912
+    },
+    {
+      "provider": 154,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 30467
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 214583
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 49995
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 869
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 280507
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 39756
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 14657
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 1276
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 34983
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 6215
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 5169
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 1506
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 4068
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "match",
+      "views": 2
+    },
+    {
+      "provider": 509,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 4684
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 3730
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 14897
+    },
+    {
+      "provider": 509,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1957
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "category",
+      "views": 830
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "news_view",
+      "views": 147944
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "livescore",
+      "views": 29451
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "homepage",
+      "views": 14636
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "news_view",
+      "views": 83363
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "livescore",
+      "views": 8979
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 10603
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "tournament",
+      "views": 283
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "country",
+      "views": 2559
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "country",
+      "views": 3497
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "category",
+      "views": 2762
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "team",
+      "views": 467
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "tv-schedule",
+      "views": 22005
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "homepage",
+      "views": 1292
+    },
+    {
+      "provider": 511,
+      "day": 229,
+      "year": 2022,
+      "page": "team",
+      "views": 918
+    },
+    {
+      "provider": 511,
+      "day": 230,
+      "year": 2022,
+      "page": "tournament",
+      "views": 320
+    }
+  ]
 }
