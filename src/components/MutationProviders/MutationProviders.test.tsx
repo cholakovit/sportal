@@ -1,5 +1,5 @@
 import { describe, it } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { screen, fireEvent } from "@testing-library/react";
 import MutationProviders from "./MutationProviders";
 
 // Create a new Redux store instance every time it's called, with an optional preloadedState value that can be used for an initial value
@@ -10,9 +10,38 @@ import MutationProviders from "./MutationProviders";
 import { renderWithProviders } from "../../test-utils";
 
 describe("Testing the MutationProviders Component", () => {
-  const error = "Network Problem";
 
   it("render MutationProviders", () => {
     renderWithProviders(<MutationProviders />);
+
+    const providerField: any = screen.getByTestId("providerTest").querySelector("input");
+    expect(providerField).toHaveValue('');
+
+    fireEvent.change(providerField, { target: { value: "my provider" } });
+    expect(providerField).toHaveValue("my provider");
+
+    const dayField: any = screen.getByTestId("dayTest").querySelector("input");
+    expect(dayField).toHaveValue(0);
+
+    fireEvent.change(dayField, { target: { value: 111 } });
+    expect(dayField).toHaveValue(111);
+
+    const yearField: any = screen.getByTestId("yearTest").querySelector("input");
+    expect(yearField).toHaveValue(0);
+
+    fireEvent.change(yearField, { target: { value: 111 } });
+    expect(yearField).toHaveValue(111);
+
+    const pageField: any = screen.getByTestId("pageTest").querySelector("input");
+    expect(pageField).toHaveValue('');
+
+    fireEvent.change(pageField, { target: { value: "my page" } });
+    expect(pageField).toHaveValue("my page");
+
+    const viewsField: any = screen.getByTestId("viewsTest").querySelector("input");
+    expect(viewsField).toHaveValue(0);
+
+    fireEvent.change(viewsField, { target: { value: 111 } });
+    expect(viewsField).toHaveValue(111);
   });
 });

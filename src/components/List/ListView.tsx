@@ -7,7 +7,7 @@ import { useAppSelector } from "../../store/hooks";
 
 // Components
 import Skeletons from "../Skeletons/SkeletonsView";
-import Error from "../Error/Error";
+import Alert from "../Alert/AlertView";
 import ProviderView from "../Provider/ProviderView";
 
 const ListView = () => {
@@ -23,7 +23,7 @@ const ListView = () => {
         {isLoading ? (
           <Skeletons flag={1} width={160} height={120} />
         ) : isError ? (
-          <Error error="Network Problem" />
+          <Alert alert="Network Problem" type='error' />
         ) : isSuccess ? (
           providers.length > 0 ? (
             <>

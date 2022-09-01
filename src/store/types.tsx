@@ -1,3 +1,5 @@
+import { AlertColor } from "@mui/material";
+
 // for the Theme
 export type colorModeProps = {
   toggleColorMode?: any;
@@ -27,4 +29,9 @@ export type ProviderProps = {
   year: number
   page: string
   views: number
+}
+
+export type AlertProps = {
+  alert: string
+  type: any
 }

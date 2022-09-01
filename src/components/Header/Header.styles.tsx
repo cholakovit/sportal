@@ -20,7 +20,7 @@ export const ModalBox = styled(Box)(({ theme }) => ({
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: '600px',
+  width: '650px',
   backgroundColor: theme.palette.primary.black,
   border: '2px solid #000',
   boxShadow: '24',

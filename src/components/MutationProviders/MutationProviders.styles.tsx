@@ -6,7 +6,8 @@ import { Box, Typography } from "@mui/material";
 
 export const FormTitleHolder = styled(Typography)(({ theme }) => ({
     borderBottom: '1px solid ' + theme.palette.primary.white,
-    padding: '10px'
+    padding: '10px',
+    marginBottom: '10px'
 }));
 
 export const FieldHolder = styled(Box)(({ theme }) => ({
