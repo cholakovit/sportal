@@ -34,7 +34,7 @@ const HeaderView = () => {
     <SportalAppBar>
       <HeaderContainer>
 
-          <ModalButton onClick={handleOpen}>Insert</ModalButton>
+          <ModalButton onClick={handleOpen}>Insert Provider</ModalButton>
           <Modal
             aria-labelledby="transition-modal-title"
             aria-describedby="transition-modal-description"

@@ -1,5 +1,5 @@
 // Styled Elements
-import { ProvidersContainer, ProvidersHolder } from "./List.styles";
+import { ProvidersContainer, ProvidersHolder, Title } from "./List.styles";
 
 // Redux
 import { useGetProvidersQuery, selectAllProviders } from "../../store/apiSlice";
@@ -19,26 +19,27 @@ const ListView = () => {
 
   return (
     <ProvidersContainer>
-      <ProvidersHolder>
-        {isLoading ? (
-          <Skeletons flag={1} width={160} height={120} />
-        ) : isError ? (
-          <Alert alert="Network Problem" type='error' />
-        ) : isSuccess ? (
-          providers.length > 0 ? (
-            <>
+      {isLoading ? (
+        <Skeletons flag={1} width={160} height={120} />
+      ) : isError ? (
+        <Alert alert="Network Problem" type='error' />
+      ) : isSuccess ? (
+        providers.length > 0 ? (
+          <>
+            <Title variant="h1">List of Providers</Title>
+            <ProvidersHolder>
               {providers &&
                 providers.map((provider: any, index: number) => (
                   <ProviderView provider={provider} key={index} />
                 ))}
-            </>
-          ) : (
-            <Skeletons flag={1} width={160} height={120} />
-          )
+            </ProvidersHolder>
+          </>
         ) : (
-          ""
-        )}
-      </ProvidersHolder>
+          <Skeletons flag={1} width={160} height={120} />
+        )
+      ) : (
+        ""
+      )}
     </ProvidersContainer>
   );
 };

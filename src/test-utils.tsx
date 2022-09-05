@@ -12,7 +12,7 @@ import { sportalApi } from './store/apiSlice'
 // This type interface extends the default options for render from RTL, as well
 // as allows the user to specify other things such as initialState, store.
 interface ExtendedRenderOptions extends Omit<RenderOptions, 'queries'> {
-    preloadedState?: PreloadedState<RootState>
+    preloadedState?: any // PreloadedState<RootState>
     store?: AppStore
   }
 

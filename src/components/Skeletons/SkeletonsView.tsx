@@ -17,7 +17,7 @@ const Skeletons: FC<SkeletonProps> = ({ flag, width, height }) => {
         {
           1: (
             <>
-              <SkeletonBox>
+              <SkeletonBox data-testid='skeletons'>
                 <Skeleton
                   variant="rectangular"
                   animation="wave"
