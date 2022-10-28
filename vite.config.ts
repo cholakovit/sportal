@@ -5,9 +5,15 @@
 
 import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react-refresh'
+import eslint from '@rollup/plugin-eslint'
 
 export default defineConfig({
-    plugins: [react()],
+    plugins: [
+        react(),
+        { ...eslint({ include: 'src/**/*.+(js|jsx|ts|tsx)'}), enforce: 'pre'  },
+        reactRefresh(),
+    ],
     // remove possible inline test code from generated files after npm run build
     // define: {
     //     "import.meta.vitest": "undifined"

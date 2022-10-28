@@ -13,7 +13,7 @@ import { renderWithProviders } from "../../test-utils";
 
 describe("Testing the PartnerView Component", () => {
   it("Render PartnerView", () => {
-    let provider = {
+    const provider = {
       provider: 511,
       day: 229,
       year: 2022,

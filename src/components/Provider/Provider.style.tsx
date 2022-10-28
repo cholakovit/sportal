@@ -1,5 +1,5 @@
 // MUI Elements
-import Box from "@mui/material/Box";
+import Box from '@mui/material/Box';
 
 // Styled Elements
 import { styled } from "@mui/material/styles";
@@ -15,13 +15,13 @@ export const Provider = styled(Box)(({ theme }) => ({
   overflow: 'hidden'
 }));
 
-export const ProviderContent = styled(Box)(({ theme }) => ({
+export const ProviderContent = styled(Box)({
   width: "100%",
   overflow: "hidden",
-}));
+});
 
 export const ProviderPropHolder1 = styled(Box)(({ theme }) => ({
   color: theme.palette.primary.white,
 }));
 
-export const ProviderPropHolder2 = styled(Box)(({ theme }) => ({}));
+export const ProviderPropHolder2 = styled(Box)({});

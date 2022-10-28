@@ -69,7 +69,7 @@ const MutationProviders = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit((data) => {
+    <form data-cy='form' onSubmit={handleSubmit((data) => {
       onSubmit(data)
     })}>
       <FormTitleHolder>Fill the Form - All Fields are required!</FormTitleHolder>

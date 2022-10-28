@@ -1,10 +1,8 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 
-import { Provider, ProviderContent, ProviderPropHolder1, ProviderPropHolder2 } from './Provider.style'
+import { Provider, ProviderContent, ProviderPropHolder1, ProviderPropHolder2 } from './Provider.style';
 
 const ProviderView: FC<any> = (provider, key) => {
-
-    //console.log('provider', provider)
 
   return (
     <Provider role='provider' key={key}>
@@ -15,7 +13,7 @@ const ProviderView: FC<any> = (provider, key) => {
           <ProviderPropHolder1>Provider: {provider.provider.provider} </ProviderPropHolder1>
         </ProviderContent>
     </Provider>
-  )
-}
+  );
+};
 
-export default ProviderView
+export default ProviderView;
