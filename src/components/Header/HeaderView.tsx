@@ -9,13 +9,15 @@ import {
 import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import MutationProviders from "../MutationProviders/MutationProviders";
+
+// Hooks
+import React, { useContext, Suspense } from "react";
+
+// code split
+const MutationProviders = React.lazy(() => import('../MutationProviders/MutationProviders'));
 
 // Context for the Theme
 import { ColorModeContext } from "../../helper/Context";
-
-// Hooks
-import { useContext } from "react";
 
 // Types
 import { colorModeProps } from "../../store/types";
@@ -35,23 +37,25 @@ const HeaderView = () => {
       <HeaderContainer>
 
           <ModalButton onClick={handleOpen} data-cy='modalButton'>Insert Provider</ModalButton>
-          <Modal
-            aria-labelledby="transition-modal-title"
-            aria-describedby="transition-modal-description"
-            open={open}
-            onClose={handleClose}
-            closeAfterTransition
-            BackdropComponent={Backdrop}
-            BackdropProps={{
-              timeout: 500,
-            }}
-          >
-            <Fade in={open}>
-              <ModalBox>
-                <MutationProviders />
-              </ModalBox>
-            </Fade>
-          </Modal>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Modal
+              aria-labelledby="transition-modal-title"
+              aria-describedby="transition-modal-description"
+              open={open}
+              onClose={handleClose}
+              closeAfterTransition
+              BackdropComponent={Backdrop}
+              BackdropProps={{
+                timeout: 500,
+              }}
+            >
+              <Fade in={open}>
+                <ModalBox>
+                    <MutationProviders />
+                </ModalBox>
+              </Fade>
+            </Modal>
+          </Suspense>
 
         <SportalFormControlLabel
           label=""

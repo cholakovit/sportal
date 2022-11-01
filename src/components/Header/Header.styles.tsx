@@ -4,16 +4,16 @@ import { styled } from "@mui/material/styles";
 // MUI Elements
 import { AppBar, FormControlLabel, Switch, Box, Button, Container } from "@mui/material";
 
-export const HeaderContainer = styled(Container)(({ theme }) => ({
+export const HeaderContainer = styled(Container)({
   display: "flex",
   justifyContent: 'center',
   padding: '10px'
-}));
+});
 
-export const ModalButton = styled(Button)(({ theme }) => ({
+export const ModalButton = styled(Button)({
   display: "flex",
   flexWrap: "wrap",
-}));
+});
 
 export const ModalBox = styled(Box)(({ theme }) => ({
   position: 'absolute' as 'absolute',

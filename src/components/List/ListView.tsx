@@ -15,8 +15,6 @@ const ListView = () => {
 
   const providers = useAppSelector(selectAllProviders);
 
-  //console.log('providers', providers)
-
   return (
     <ProvidersContainer>
       {isLoading ? (

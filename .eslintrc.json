@@ -79,6 +79,7 @@
          "react/jsx-max-props-per-line":"off",
          "react/jsx-closing-bracket-location":"off",
          "prettier/prettier":"off",
-         "prefer-template":"off"
+         "prefer-template":"off",
+         "import/first":"off"
     }
 }
