@@ -18,13 +18,25 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      - run: npm i json-server
+      - run: npx json-server --watch .\src\data\db.json --port 3500
+
+
+
+
+
+
+
+
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
       - run: npm create vite .
       - run: npm i -g typescript
 #      - run: npm i vitest
-      - run: npm i json-server
-      - run: | 
-          npx json-server --watch .\src\data\db.json --port 3500
-          npm test
+      - run: npm test
 #      - run: npm test
 #       - run: npm run build
 
