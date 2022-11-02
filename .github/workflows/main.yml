@@ -1,5 +1,5 @@
-name: SPORTAL Application
-run-name: ${{ github.actor }} is testing out GitHub Actions SPORTAL Application
+name: JSON-SERVER
+run-name: ${{ github.actor }} is testing out GitHub Actions JSON-SERVER
 
 on: [push]
 
