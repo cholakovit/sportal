@@ -1,0 +1,12 @@
+name: SPORTAL application
+run-name: ${{ github.actor }} is testing out SPORTAL
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    
+    steps:
+    - run: npm init -y
+    - run: npm create vite .
+    - run: npm install typescript
