@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm create vite .
+      - run: npm i -g typescript
 #      - run: npm i vitest
 #       - run: npm install -g typescript
 #       - run: npm run build
