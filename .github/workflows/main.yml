@@ -7,6 +7,5 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - run: npm init -y
     - run: npm create vite .
     - run: npm install typescript
