@@ -21,8 +21,11 @@ jobs:
       - run: npm create vite .
       - run: npm i -g typescript
       - run: npm i vitest
-
+      - run: npm i json-server
+      
+      
+      
 #       - run: npm run build
-      - run: npm test
+#      - run: npm test
 
 
