@@ -38,7 +38,6 @@ const MutationProviders = () => {
   }
 
   const onSubmit = async () => {
-    console.log('providerRef', providerRef.current?.value)
     if (submitAllowed === true) {
       try {
         await addNewProvider({
@@ -71,32 +70,32 @@ const MutationProviders = () => {
     <form data-cy='form' onSubmit={handleSubmit(() => { onSubmit() })}>
       <FormHolder>
         <FieldHolder>
-            <TextField
-              id="filled-basic"
-              label="Enter Day..."
-              variant="filled"
-              inputRef={dayRef}
-              type="number"
-              data-testid='dayTest'
-              {...register('day', { required: true, minLength: 3, maxLength: 3 })}
-              onChange={() => handleOnChange()}
-              helperText="Required! Insert numbers only - 3 digits"
-              error={!!errors?.day}
-            />
-          </FieldHolder>
-          <FieldHolder>
-            <TextField
-              id="filled-basic"
-              label="Enter Provider..."
-              variant="filled"
-              inputRef={providerRef}
-              data-testid='providerTest'
-              {...register('provider', { required: true, minLength: 3 })}
-              onChange={() => handleOnChange()}
-              helperText="Required! Insert more then 3 letters"
-              error={!!errors?.provider}
-            />
-          </FieldHolder>
+          <TextField
+            id="filled-basic"
+            data-testid="providerTest"
+            label="Enter Provider..."
+            variant="filled"
+            inputRef={providerRef}
+            {...register('provider', { required: true, minLength: 3 })}
+            onChange={() => handleOnChange()}
+            helperText="Required! Insert more then 3 letters"
+            error={!!errors?.provider}
+          />
+        </FieldHolder>
+        <FieldHolder>
+          <TextField
+            id="filled-basic"
+            label="Enter Day..."
+            variant="filled"
+            inputRef={dayRef}
+            type="number"
+            data-testid='dayTest'
+            {...register('day', { required: true, minLength: 3, maxLength: 3 })}
+            onChange={() => handleOnChange()}
+            helperText="Required! Insert numbers only - 3 digits"
+            error={!!errors?.day}
+          />
+        </FieldHolder>
           <FieldHolder>
             <TextField
               id="filled-basic"
@@ -149,3 +148,4 @@ const MutationProviders = () => {
 };
 
 export default MutationProviders;
+

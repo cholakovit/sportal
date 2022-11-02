@@ -8,3 +8,4 @@ and you have to run in the project folder these commands:
 
 2. npm run dev
 
+3. For testing: npm run test

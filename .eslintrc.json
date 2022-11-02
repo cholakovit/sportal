@@ -80,6 +80,9 @@
          "react/jsx-closing-bracket-location":"off",
          "prettier/prettier":"off",
          "prefer-template":"off",
-         "import/first":"off"
+         "import/first":"off",
+         "@typescript-eslint/no-empty-function":"off",
+         "func-names":"off",
+         "no-alert":"off"
     }
 }

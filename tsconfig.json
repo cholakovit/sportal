@@ -19,6 +19,6 @@
       "vitest/importMeta"
     ]
   },
-  "include": ["src"],
+  "include": ["src", "webpack.config.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

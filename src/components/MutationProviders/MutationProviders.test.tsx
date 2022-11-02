@@ -21,13 +21,13 @@ describe("Testing the MutationProviders Component", () => {
     expect(providerField).toHaveValue("my provider");
 
     const dayField: any = screen.getByTestId("dayTest").querySelector("input");
-    expect(dayField).toHaveValue(0);
+    expect(dayField).toHaveValue(null);
 
     fireEvent.change(dayField, { target: { value: 111 } });
     expect(dayField).toHaveValue(111);
 
     const yearField: any = screen.getByTestId("yearTest").querySelector("input");
-    expect(yearField).toHaveValue(0);
+    expect(yearField).toHaveValue(null);
 
     fireEvent.change(yearField, { target: { value: 111 } });
     expect(yearField).toHaveValue(111);
@@ -39,7 +39,7 @@ describe("Testing the MutationProviders Component", () => {
     expect(pageField).toHaveValue("my page");
 
     const viewsField: any = screen.getByTestId("viewsTest").querySelector("input");
-    expect(viewsField).toHaveValue(0);
+    expect(viewsField).toHaveValue(null);
 
     fireEvent.change(viewsField, { target: { value: 111 } });
     expect(viewsField).toHaveValue(111);
