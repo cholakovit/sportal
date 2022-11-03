@@ -1,10 +1,7 @@
-name: JSON-SERVER
-run-name: ${{ github.actor }} is testing out GitHub Actions JSON-SERVER
+name: SPORTAL Application 03.11.2022
+run-name: ${{ github.actor }} is testing out GitHub Actions SPORTAL Application 03.11.2022
 
-on: 
-  push:
-    paths-ignore:
-      - src/**/*.test.tsx
+on: [push]
 
 jobs:
   job1:
@@ -26,4 +23,3 @@ jobs:
         - run: npm create vite .
         - run: npm i -g typescript
         - run: npm i vitest
-        - run: npm test
