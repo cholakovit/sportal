@@ -4,7 +4,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions JSON-SERVER
 on: 
   push:
     paths-ignore:
-      - '**/*.src/App.test.tsx'
+      - 'src/App.test.tsx'
 
 jobs:
   job1:
