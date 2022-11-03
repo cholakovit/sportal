@@ -19,6 +19,7 @@ jobs:
         - run: npx json-server --watch .\src\data\db.json --port 3500
   job2:
       runs-on: windows-latest
+      needs: job1
       strategy:
         matrix:
           node-version: [16.x]
