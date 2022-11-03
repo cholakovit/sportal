@@ -19,7 +19,6 @@ jobs:
         - run: npx json-server --watch .\src\data\db.json --port 3500
   job2:
       runs-on: windows-latest
-      needs: job1
       strategy:
         matrix:
           node-version: [16.x]
@@ -37,7 +36,9 @@ jobs:
         - run: npm create vite .
         - run: npm i -g typescript
         - run: npm i vitest
-        - run: npm test
+        - run: | 
+            sleep 1000 && 
+            npm test
 
 
 
